@@ -9,3 +9,23 @@
   height: 200px;
   width: 200px;
 }
+
+.images-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: fit-content;
+}
+
+.images_container{
+  height: 30vh;
+  width: 100%;
+}
+
+.images_container img{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
