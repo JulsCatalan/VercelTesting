@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({title, Svg, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -71,6 +71,7 @@ export default function HomepageFeatures(): JSX.Element {
     </section>
   );
 }
+
 
 export function HomePageImages(): JSX.Element {
   return (
@@ -119,5 +120,3 @@ export function HomePageImages(): JSX.Element {
     </section>
   );
 }
-
-
